@@ -46,12 +46,25 @@ func ExampleNumberString() {
 	fmt.Println(NumberString(53))
 	fmt.Println(NumberString(7))
 	fmt.Println(NumberString(258))
-	fmt.Println(NumberString(258756))
 
 	// Output:
 	// einhundertdreiundvierzig
 	// dreiundfünfzig
 	// sieben
 	// zweihundertachtundfünfzig
+}
+
+func ExampleNumberString_special_cases() {
+	fmt.Println(NumberString(258756))
+	fmt.Println(NumberString(12))
+	fmt.Println(NumberString(123))
+	fmt.Println(NumberString(1))
+	fmt.Println(NumberString(0))
+
+	// Output:
 	// zweihundertachtundfünfzigtausendsiebenhundertfünfundfünfzig
+	// zwölf
+	// einhundertdreiundzwanzig
+	// eins
+	// null
 }
