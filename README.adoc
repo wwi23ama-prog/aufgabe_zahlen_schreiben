@@ -36,3 +36,18 @@ bevor wir dann die jeweilige Funktion implementieren.
 Das Ablaufdiagramm mit Überlegungen zu Funktionen findet sich hier:
 
 * link:docs/ablauf.excalidraw.svg[]
+
+== Struktur des Repos
+
+Das Repository enthält die Aufgaben im Verzeichnis `zahlen`, sowie eine
+Variante mit Hinweisen und die Lösung in den entsprechenden Verzeichnissen.
+
+== Zusatzaufgaben (ohne Lösung)
+
+* Gibt es weitere Sonderfälle, die wir noch nicht behandelt haben?
+  Finden Sie solche Fälle, falls vorhanden, schreiben Sie Tests, die diese Fälle aufdecken
+  und passen Sie die Funktion NumberString oder die Hilfsfunktionen entsprechend an.
+
+* Erweitern Sie die Funktion NumberString,
+  so dass sie auch Zahlen mit mehr als 3 Stellen
+  sowie negative Zahlen behandeln kann.
