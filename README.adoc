@@ -51,3 +51,7 @@ Variante mit Hinweisen und die Lösung in den entsprechenden Verzeichnissen.
 * Erweitern Sie die Funktion NumberString,
   so dass sie auch Zahlen mit mehr als 3 Stellen
   sowie negative Zahlen behandeln kann.
+
+* Schreiben Sie in einem separaten Package ein `main`-Programm, dass den Benutzer nach einer
+  Zahl fragt und den entsprechenden String ausgibt. Dieses Programm soll die Funktion
+  NumberString verwenden.
