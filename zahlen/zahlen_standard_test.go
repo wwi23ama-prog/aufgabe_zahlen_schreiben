@@ -22,15 +22,15 @@ func ExampleDigitStrings() {
 	fmt.Println(DigitStrings([]int{2, 5, 8}))
 
 	// Output:
-	// ["ein" "vierz" "drei"]
-	// ["fünf" "drei"]
-	// ["sieben"]
-	// ["zwei" "fünfz" "acht"]
+	// [ein vierz drei]
+	// [fünfz drei]
+	// [sieben]
+	// [zwei fünfz acht]
 }
 
 func ExampleCompose() {
 	fmt.Println(Compose([]string{"ein", "vierz", "drei"}))
-	fmt.Println(Compose([]string{"fünf", "drei"}))
+	fmt.Println(Compose([]string{"fünfz", "drei"}))
 	fmt.Println(Compose([]string{"sieben"}))
 	fmt.Println(Compose([]string{"zwei", "fünfz", "acht"}))
 

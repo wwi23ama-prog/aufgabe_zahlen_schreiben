@@ -111,4 +111,8 @@ func NumberString(n int) string {
 	// Zusatzaufgabe: Gibt es weitere Sonderfälle, die wir noch nicht behandelt haben?
 	// Finden Sie solche Fälle, falls vorhanden, schreiben Sie Tests, die diese Fälle aufdecken
 	// und passen Sie die Funktion NumberString oder die Hilfsfunktionen entsprechend an.
+
+	// Zusatzafgabe: Erweitern Sie die Funktion NumberString,
+	// so, dass sie auch Zahlen mit mehr als 3 Stellen
+	// sowie negative Zahlen behandeln kann.
 }
