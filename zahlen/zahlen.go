@@ -20,3 +20,10 @@ func Compose(digits []string) string {
 	// TODO
 	return result
 }
+
+// NumberString erwartet eine Zahl und liefert einen String mit der Zahl in Worten.
+func NumberString(n int) string {
+	result := ""
+	// TODO
+	return result
+}

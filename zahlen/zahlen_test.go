@@ -46,3 +46,18 @@ func ExampleCompose() {
 	// zweihundertachtundfünfzig
 	// zweihundertachtundfünfzigtausendsiebenhundertfünfundfünfzig
 }
+
+func ExampleNumberString() {
+	fmt.Println(NumberString(143))
+	fmt.Println(NumberString(53))
+	fmt.Println(NumberString(7))
+	fmt.Println(NumberString(258))
+	fmt.Println(NumberString(258756))
+
+	// Output:
+	// einhundertdreiundvierzig
+	// dreiundfünfzig
+	// sieben
+	// zweihundertachtundfünfzig
+	// zweihundertachtundfünfzigtausendsiebenhundertfünfundfünfzig
+}
