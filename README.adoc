@@ -25,10 +25,13 @@ zurückgibt, der die Zahl ausschreibt.
 
 Wir entwickeln zunächst ein Konzept, wie wir die Aufgabe lösen können.
 Dies visualisieren wir mit einem Ablaufdiagramm, das die grobe Struktur
-der Funktion zeigt. 
+der Funktion zeigt.
 
 Anschließend identifizieren wir die Teilfunktionen, die sich aus dem
 Ablaufdiagramm ergeben.
 Für diese Teilfunktionen erzeugen wir jeweils eine Funktion und einen Test,
 bevor wir dann die jeweilige Funktion implementieren.
 
+Das Ablaufdiagramm mit Überlegungen zu Funktionen findet sich hier:
+
+* link:docs/ablauf.excalidraw.svg[]
