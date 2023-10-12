@@ -1,0 +1,34 @@
+= Aufgabe: Zahlen als Strings ausschreiben
+
+Die Aufgabe hier ist, eine Funktion zu schreiben,
+die eine Zahl als `int` erwartet und die einen String
+zurückgibt, der die Zahl ausschreibt.
+
+== Beispiele
+
+*Beispiele (Normalfall):*
+
+* 143 -> "einhundertdreiundvierzig"
+* 53 -> "dreiundfünfzig"
+* 7 -> "sieben"
+* 258 -> "zweihundertachtundfünfzig"
+* 258756 -> "zweihundertachtundfünfzigtausendsiebenhundertsechsundfünfzig"
+
+*Beispiele (Sonderfälle):*
+
+* 12 -> "zwölf"
+* 20 -> "zwanzig"
+* 131 -> "eintausenddreihundertzwölf"
+* 1 -> "eins"
+
+== Vorgehensweise:
+
+Wir entwickeln zunächst ein Konzept, wie wir die Aufgabe lösen können.
+Dies visualisieren wir mit einem Ablaufdiagramm, das die grobe Struktur
+der Funktion zeigt. 
+
+Anschließend identifizieren wir die Teilfunktionen, die sich aus dem
+Ablaufdiagramm ergeben.
+Für diese Teilfunktionen erzeugen wir jeweils eine Funktion und einen Test,
+bevor wir dann die jeweilige Funktion implementieren.
+
