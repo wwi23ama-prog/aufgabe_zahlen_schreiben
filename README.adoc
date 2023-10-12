@@ -12,14 +12,15 @@ zurückgibt, der die Zahl ausschreibt.
 * 53 -> "dreiundfünfzig"
 * 7 -> "sieben"
 * 258 -> "zweihundertachtundfünfzig"
-* 258756 -> "zweihundertachtundfünfzigtausendsiebenhundertsechsundfünfzig"
 
 *Beispiele (Sonderfälle):*
 
 * 12 -> "zwölf"
 * 20 -> "zwanzig"
-* 131 -> "eintausenddreihundertzwölf"
+* 131 -> "einhunderteinunddreißig"
 * 1 -> "eins"
+* 0 -> "null"
+* 258756 -> "zweihundertachtundfünfzigtausendsiebenhundertsechsundfünfzig"
 
 == Vorgehensweise:
 
